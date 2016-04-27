@@ -27,42 +27,42 @@ Thank you!
 #### 0.6.0.0
 released 2016-04-27
 
-* Smoother graph panning and zooming on keyboard using update loop
-* Differentiate between explicit and implicit nodes and only show implicit nodes in the graph view when connected
-* Improved file clearing performance on project refresh
-* Show deleted projects on the start screen and show messagebox to delete them
-* Show analysis duration in hh:mm:ss
 * Added suppport for temporary test licenses and show error message when it expired
-* Increased graph performance by reducing to fixed number of requests
-* Add vs-clang compatibility flags when creating project from Visual Studio solution
-* Increased graph edge drawing performance
-* Added auto detection for system header paths to project wizard and preferences when using gcc, clang or vs compilers
-* Added bug tracker to help menu
 * Increased search autocompletion performance to stay mostly below 100ms
+* Increased project load performance
+* Improved file clearing performance on project refresh
+* Increased graph creation performance for overview screen
+* Increased graph performance by reducing to fixed number of requests
+* Increased graph edge drawing performance
+* Improved error display performance by not expanding all of them at once
+* Added analysis for local symbols and allow selecting them in the code view
+* Added support for function pointers to analysis
+* Smoother graph panning and zooming on keyboard using update loop
 * Changed style of aggregation edge to cleaner look
 * Allow certain edge types to enter and leave at top and bottom of nodes as well e.g. inheritance
-* Increased project load performance
-* Increased graph creation performance for overview screen
 * Changed namespace activation to show the namespace name in the search bar and the namespace definitions in the code view
-* Updated to Qt 5.6
-* Added analysis for local symbols and allow selecting them in the code view
-* Improved error display performance by not expanding all of them at once
+* Differentiate between explicit and implicit nodes and only show implicit nodes in the graph view when connected
+* Show deleted projects on the start screen and show messagebox to delete them
+* Show analysis duration in hh:mm:ss
+* Added bug tracker to the help menu
 * Added home button next to search field for showing the project overview
 * Added shortcut and menu item to show project overview
-* Fixed Path boxes not sized correctly when switching back and forth in the project wizard
 * Allow support for environment variables in project setup with syntax ${VARIABLE_NAME}
+* Added welcome message to Coati trial
 * Show quit button on license enter screen when no valid license was entered yet
 * Allow color schemes to define text colors for code view highlights
-* Added support for function pointers to analysis
-* Added Windows system dlls to installer on Windows so users don't not need to install the redistributable package
+* Defined new highlight colors for code view in all color schemes
 * Changed style of out-of-date files to be followed by *
-* Set Qt flag for high DPI scaling
+* Fixed Path boxes not sized correctly when switching back and forth in the project wizard
 * Check analyzed paths for existence in project wizard
 * Inform the user about project changes and ask before reparsing the project
 * Removed "simple setup" step in project wizard and added "lazy include search"-checkbox
 * Edit the project settings by clicking the project name in the overview stats
-* Added welcome message to Coati trial
-* Defined new highlight colors for code view in all color schemes
+* Updated to Qt 5.6
+* Improved high DPI support for windows
+* Added Windows system dlls to installer on Windows so users don't not need to install the redistributable package
+* Added vs-clang compatibility mode as compile flags when creating project from Visual Studio solution
+* Added auto detection for system header paths to project wizard and preferences when using gcc, clang or vs compilers
 
 #### 0.5.1.21
 released 2016-03-16
