@@ -29,30 +29,30 @@ released 2016-09-01
 
 * Improved titles and help texts in project setup UI
 * Fixed error locations not saved with absolute file paths in Compilation Database projects
-* Added missing source files extensions setting to the Edit Project dialog #132
-* Changed default text colors to black in project setup UI #140
-* Added plugin ports settings to Preferences #145
+* Added missing source files extensions setting to the Edit Project dialog [#132](https://github.com/CoatiSoftware/CoatiBugTracker/issues/132)
+* Changed default text colors to black in project setup UI [#140](https://github.com/CoatiSoftware/CoatiBugTracker/issues/140)
+* Added plugin ports settings to Preferences [#145](https://github.com/CoatiSoftware/CoatiBugTracker/issues/145)
 * Improved project state handling on refreshing
 * Added Java sample project JavaParser: http://javaparser.org/
 * Fixed regex for system includes used wrongly in syntax highlighter
-* Added setting to disable file and console logging, default is off #157
+* Added setting to disable file and console logging, default is off [#157](https://github.com/CoatiSoftware/CoatiBugTracker/issues/157)
 * Added migrations between different ApplicationSettings versions
 * Added auto detection for Java library to Preferences
 * Removed auto refresh option from Search view
-* Added progress dialogs for indexing and block UI #143
+* Added progress dialogs for indexing and block UI [#143](https://github.com/CoatiSoftware/CoatiBugTracker/issues/143)
 * Hide name qualifiers for graph nodes in Java projects
 * Added handling when java library not found
 * Added plain text editing dialog to path list boxes
 * Use language dependent symbol name delimiter in UI
-* Added scroll speed setting to preferences #112
+* Added scroll speed setting to preferences [#112](https://github.com/CoatiSoftware/CoatiBugTracker/issues/112)
 * Added Java project setup UI
 * Record start and end locations of scopes in Java
 * Display unresolved types names in Java as 'unresolved-type'
 * Cache stats for overview to speed up display
-* Fixed graph nodes to restore their expand state when going back #118
+* Fixed graph nodes to restore their expand state when going back [#118](https://github.com/CoatiSoftware/CoatiBugTracker/issues/118)
 * Added shortcuts for navigating to next and previous reference in code view
-* Pressing Tab in search completes up to next ::, Delete erases to last :: #133
-* Bundle anonymous namespaces separately in graph overview #126
+* Pressing Tab in search completes up to next ::, Delete erases to last :: [#133](https://github.com/CoatiSoftware/CoatiBugTracker/issues/133)
+* Bundle anonymous namespaces separately in graph overview [#126](https://github.com/CoatiSoftware/CoatiBugTracker/issues/126)
 * Added 'Show Data Folder' and 'Show Log Folder' items to Help menu
 * Added new status bar loader gif with higher resolution
 * Record type aliases in C++
@@ -63,7 +63,7 @@ released 2016-09-01
 * Leave code view at original line when expanding scopes
 * Pan graph view to center on name of active symbol after activation
 * Moved color scheme selection to Preferences
-* Moved Preferences menu item to Edit menu on Windows/Linux #113
+* Moved Preferences menu item to Edit menu on Windows/Linux [#113](https://github.com/CoatiSoftware/CoatiBugTracker/issues/113)
 * Added setting for hiding non-fatal errors in unindexed files to preferences, turned on by default
 * Fixed file out-of-date asterisk disappearing when showing snippets after minimize state
 * Implemented Atom plugin: https://github.com/CoatiSoftware/atom-coati
