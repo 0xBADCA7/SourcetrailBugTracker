@@ -24,6 +24,26 @@ Thank you!
 
 ## Changelog
 
+#### 0.9.23
+released 2016-10-27
+
+* Windows: Added logging and exception handling to VS plugin
+* Windows: Added VC++ runtime dlls for windows installer
+* Windows: Added missing VC++ runtime dlls (issue [#231](https://github.com/CoatiSoftware/CoatiBugTracker/issues/231))
+* Added setting for default graph zoom on mouse wheel to preferences (issue [#237](https://github.com/CoatiSoftware/CoatiBugTracker/issues/237))
+* Scroll errors table to newest error during indexing
+* Fixed best scoring for search autocompletions skipped some combinations
+* Fixed flickering of errors table when indexing
+* Don't show error snippets in overview screen anymore
+* Fixed crash when Project Paths contain files and lazy include search in enabled (issue [#201](https://github.com/CoatiSoftware/CoatiBugTracker/issues/201))
+* Fixed edge cases that caused deadlocks in indexing
+* Added language specific project icons to start screen
+* Fixed application couldn't be quit when start screen was showing (issue [#227](https://github.com/CoatiSoftware/CoatiBugTracker/issues/227))
+* Graph: Fixed missing image file ending when exporting graph for Linux
+* Log Coati version when logging gets enabled
+* Fixed non-indexed errors filter in errors table
+
+
 #### 0.9.0
 released 2016-10-14
 
