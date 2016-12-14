@@ -25,7 +25,7 @@ Thank you!
 ## Changelog
 
 #### 0.10.0
-released 2016-12-13
+released 2016-12-14
 
 * Windows: Added runtime DLLs that could be missing on some systems
 * Click message in status bar to open status window
