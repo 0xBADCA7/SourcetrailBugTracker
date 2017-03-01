@@ -24,6 +24,77 @@ Thank you!
 
 ## Changelog
 
+#### 0.11.15
+released 2017-03-01
+
+* Don't accept richt text in 'enter license' dialog field (issue [#207](https://github.com/CoatiSoftware/CoatiBugTracker/issues/207))
+* Updated EULA to include Test License and better clarify other license types
+* Fixed icons in project setup dialogs blurry on highDPI screens
+* Added link to additional downloadable pre-indexed projects to trial start screen
+* Fixed crash when saving preferences if they contain relative paths
+* Convert all paths chosen by patch picker relative to project location in project setup
+* Disabled name and location changing in project editing and removed project moving
+* Split default file extensions for C++ and C to avoid wrong files getting indexed
+* Deprecated 'Lazy Include Search', it's only visible to previously created projects (issue [#335](https://github.com/CoatiSoftware/CoatiBugTracker/issues/335))
+* Support relative paths and paths containing environment variables for compilation database path (issue [#312](https://github.com/CoatiSoftware/CoatiBugTracker/issues/312))
+* Removed 'Advanced Settings' section in project setup and show theses options in separate dialog (issue [#293](https://github.com/CoatiSoftware/CoatiBugTracker/issues/293))
+* Support environment variables containing multiple files in project setup paths (issue [#283](https://github.com/CoatiSoftware/CoatiBugTracker/issues/283))
+* Warn users when no 'Indexed Header Paths' were set in compilation database project (issue [#254](https://github.com/CoatiSoftware/CoatiBugTracker/issues/254))
+* Renamed "Project Paths" to "Indexed Paths" in project setup
+* Renamed "Project File Location" to "Coati Project Location" in project setup (issue [#234](https://github.com/CoatiSoftware/CoatiBugTracker/issues/234))
+* Allow opening indexed projects in trial mode
+* Record node type of non-indexed qualifiers (e.g. "std" in "std::string" as namespace)
+* Log: Fixed error icon loaded for every row (issue [#287](https://github.com/CoatiSoftware/CoatiBugTracker/issues/287))
+* Graph: Fixed lambda are placed within white area to better see call edges
+* Graph: Show non-indexed nodes within their parents instead of using namespace labeling
+* Code: Disabled syntax highlighting for project description
+* Graph: Fixed different font-faces causing graph nodes to expand to bigger cell amount
+* Mac: Fixed wrong READMEs at some plugins (issue [#315](https://github.com/CoatiSoftware/CoatiBugTracker/issues/315))
+* Mac: Removed boost libraries and libLTO from Mac bundle
+* Windows: Add Visual Studio compatibility flags to new project when Visual Studio include paths are present
+* Renamed undefined nodes to non-indexed nodes for clarification
+* Show progress in file clearing dialog
+* Extended syntax highlighting for Java and distinguish by project type
+* offer Windows 64bit build (issue [#300](https://github.com/CoatiSoftware/CoatiBugTracker/issues/300))
+* Fixed legacy Java 6 install necessary on MacOS (issue [#280](https://github.com/CoatiSoftware/CoatiBugTracker/issues/280))
+* Updated to Qt 5.8
+* Updated to clang/llvm 3.9
+* Added multithreading to Visual Studio plugin compilation database creation
+* Graph: Use new list layouting for overview bundles and namespaces/packages
+* Graph: Group nodes in list layout by starting character and allow jumping to group by pressing the key
+* Graph: Use node specific styles for overview bundles
+* Visual Studio plugin can now handle projects with non-native build tool for compilation database export
+* Changed menu action 'Licenses' to '3rd Party Licenses'
+* Added dialog with all shortcuts to Help menu
+* Log: Show error in errors table when clicked in code view (issue [#323](https://github.com/CoatiSoftware/CoatiBugTracker/issues/323))
+* Code: Switched default mouse drag behavior to selection, panning on Shift + drag, and show suitable cursors
+* Updated company address in about dialog
+* Graph: Added on-screen zoom buttons
+* Graph: Split aggregation edge when expanding nodes if possible
+* Uncommented lines using the std library in TicTacToe sample
+* Fixed issue with lambda return type (issue [#318](https://github.com/CoatiSoftware/CoatiBugTracker/issues/318))
+* Save builtin types as separate node type (issue [#2](https://github.com/CoatiSoftware/CoatiBugTracker/issues/2))
+* Remove unused included files after refreshing
+* Java: Fixed packages that only contain packages to show up as non-indexed
+* Added context-menu actions to copy node names, file paths and show files in containing directory (issue [#320](https://github.com/CoatiSoftware/CoatiBugTracker/issues/320))
+* Fixed crash when entering a single space in 'enter license' dialog (issue [#277](https://github.com/CoatiSoftware/CoatiBugTracker/issues/277))
+* Graph: Made edge lines thicker
+* Fixed handling and storing of files with the same name
+* Fixed environment variable detection within project paths for %VARIABLE_NAME% syntax
+* Coati states whether it needs 32bit or 64bit JRE
+* Java: Updated indexer to fix a lot of unsolved symbol issues
+* Graph: Fixed layouter couldn't handle nodes with same name
+* Graph: Fixed weird looking vertical aggregation edges to child nodes
+* Code: Don't show stats for non loaded project
+* Added option to disable UI animations to preferences
+* Graph: Removed double line around graph view on Mac
+* Graph: Fixed namespace label cut off at edge of screen
+* Code: Added single file view mode
+* Code: Added navigation bar with mode toggle and buttons to navigate references
+* Graph: Removed underscores in edge hover names
+* Infere some non-indexed node types by their edges
+
+
 #### 0.10.0
 released 2016-12-14
 
