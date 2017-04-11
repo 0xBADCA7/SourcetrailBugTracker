@@ -1,5 +1,5 @@
-# Coati Bug Tracker
-Public bug tracker of Coati (http://coati.io)
+# Sourcetrail Bug Tracker
+Public bug tracker of Sourcetrail (https://sourcetrail.com)
 
 Post all your feature requests and bug reports here.
 
@@ -8,21 +8,41 @@ Post all your feature requests and bug reports here.
 Please report bugs in the issues section of this repository. Use the following template:
 
 * platform version:
-* Coati version:
+* Sourcetrail version:
 * description of the problem:
 * steps to reproduce the problem:
 
-If you don't have a GitHub account you can also write an e-mail to support@coati.io and we will take care of it.
+If you don't have a GitHub account you can also write an e-mail to support@sourcetrail.com and we will take care of it.
 
 ## Supporting
 
 If you want to support a certain feature request or you have the same bug another user already reported, then please let us know:
 * post a comment with "+1" to the issue
-* or send an email to support@coati.io with the issue ID
+* or send an email to support@sourcetrail.com with the issue ID
 
 Thank you!
 
 ## Changelog
+
+#### 0.11.83
+released 2017-04-11
+
+* Use all available cores when setting indexer threads to 0 (issue [#342](https://github.com/CoatiSoftware/CoatiBugTracker/issues/342))
+* Added reset window layout option to view menu (issue [#289](https://github.com/CoatiSoftware/CoatiBugTracker/issues/289))
+* Fixed colorscheme gets refreshed when cancelling preferences dialog
+* Log: Scroll to first line in errors table after indexing and after display
+* Copy old ApplicationSettings.xml and window_settings.ini files from previous Coati install if available.
+* New projects are created with .srctrlprj and .srctrldb endings, but still support old file extensions.
+* Renamed application from Coati to Sourcetrail
+* Fixed issues in tutorial project
+* Graph: Fixed node with no children but qualifier shows expand button
+* Enable undo/redo actions in context menu only when available
+* Java: Updated to JavaParser 3.1.2 and JavaSymbolSolver 0.5.2.x
+* Revised undo/redo stack to handle messages differently
+* Java: Added support for project setup from Maven
+* Windows: Hide console when running release builds
+* Show license information on start screen
+* Added ping support to plugins and display current connected editor/IDE in status bar.
 
 #### 0.11.15
 released 2017-03-01
