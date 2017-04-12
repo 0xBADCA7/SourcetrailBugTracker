@@ -24,9 +24,10 @@ Thank you!
 
 ## Changelog
 
-#### 0.11.83
-released 2017-04-11
+#### 0.11.86
+released 2017-04-12
 
+* Terminating all running tasks before closing the application (issue [#343](https://github.com/CoatiSoftware/CoatiBugTracker/issues/343))
 * Use all available cores when setting indexer threads to 0 (issue [#342](https://github.com/CoatiSoftware/CoatiBugTracker/issues/342))
 * Added reset window layout option to view menu (issue [#289](https://github.com/CoatiSoftware/CoatiBugTracker/issues/289))
 * Fixed colorscheme gets refreshed when cancelling preferences dialog
