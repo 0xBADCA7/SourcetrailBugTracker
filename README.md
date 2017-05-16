@@ -27,7 +27,6 @@ Thank you!
 #### 0.12.25
 released 2017-05-16
 
-* Fixed SQLite indices not properly created for each mode
 * Added QtCreator plugin
 * Graph: Added context menu action to create bookmark for node under mouse cursor (issue [#373](https://github.com/CoatiSoftware/CoatiBugTracker/issues/373))
 * Code: Fixed code view not scrolled to first fulltext search match in single file mode
