@@ -24,6 +24,35 @@ Thank you!
 
 ## Changelog
 
+#### 0.12.25
+released 2017-05-16
+
+* Fixed SQLite indices not properly created for each mode
+* Added QtCreator plugin
+* Graph: Added context menu action to create bookmark for node under mouse cursor (issue [#373](https://github.com/CoatiSoftware/CoatiBugTracker/issues/373))
+* Code: Fixed code view not scrolled to first fulltext search match in single file mode
+* Set unrestricted permission for accessing shared memory to fix crash on Windows
+* Improved setting descriptions in preferences dialog
+* Java: Updated to JavaParser 3.2.0 and JavaSymbolSolver 0.5.3
+* Graph: Fixed order of nodes is same as within first encountered header file
+* Save timestamp after project indexing and show it on the overview screen
+* Fixed use of correct name delimiters in indexer processes
+* Fixed crash when running 32 and 64 bit versions in parallel
+* Bookmark: Changed menu action to "Bookmark Active Symbol"
+* Graph: Zooming on Ctrl + Mouse Wheel now (Shift + Mouse Wheel still working)
+* Added dialog to warn about "verbose indexer logging" before indexing.
+* Added multi process indexing for C/C++ projects to better handle crashes during indexing.
+* Reduced file accesses during C/C++ indexing.
+* Graph: Show call graphs, inheritance trees and include trees for active symbol. UI in the top left of the graph view for defining direction and depth. (issues [#249](https://github.com/CoatiSoftware/CoatiBugTracker/issues/249) [#337](https://github.com/CoatiSoftware/CoatiBugTracker/issues/337))
+* Improved performance by running UI updates in parallel for each view
+* Fixed project refresh not recognizing newly added files
+* Show progress dialog when clicking refresh while computing files (issue [#341](https://github.com/CoatiSoftware/CoatiBugTracker/issues/341))
+* Added show files button to summary of compilation database project setup (issue [#354](https://github.com/CoatiSoftware/CoatiBugTracker/issues/354))
+* Show option to run only C/C++ preprocessor when indexing on indexing start dialog (issue [#297](https://github.com/CoatiSoftware/CoatiBugTracker/issues/297))
+* Added bookmarking feature for nodes and edges. Bookmarks can have categories and comments. Data gets stored in .srctrlbm next to project file. Shortcuts similar to web browsers. (issue [#138](https://github.com/CoatiSoftware/CoatiBugTracker/issues/138))
+* Mark files with errors and all files within a translation unit with fatal errors as incomplete (issue [#358](https://github.com/CoatiSoftware/CoatiBugTracker/issues/358))
+* Fixed compilation database projects using C++ source extensions and standard (issue [#366](https://github.com/CoatiSoftware/CoatiBugTracker/issues/366))
+
 #### 0.11.86
 released 2017-04-12
 
