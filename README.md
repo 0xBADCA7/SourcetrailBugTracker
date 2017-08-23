@@ -24,7 +24,7 @@ Thank you!
 
 ## Changelog
 
-#### 2017.3.18
+#### 2017.3.22
 released 2017-08-23
 
 * Java: fixed indexer to continue working when a dependency path does not exist
