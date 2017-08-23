@@ -24,6 +24,55 @@ Thank you!
 
 ## Changelog
 
+#### 2017.3.18
+released 2017-08-23
+
+* Java: fixed indexer to continue working when a dependency path does not exist
+* Changed default indexer thread count to 0, which uses optimal thread count
+* Java: Changed default value for maven dependencies directory
+* Java: improved indexing speed to be 2.5 time faster
+* Added commandline API for indexing projects and configuring indexing related preferences (issue [#383](https://github.com/CoatiSoftware/CoatiBugTracker/issues/383))
+* Mention call/inheritance graphs in tutorial
+* CXX: Save command line info of indexer command to errors and show within errors table (issue [#351](https://github.com/CoatiSoftware/CoatiBugTracker/issues/351))
+* CXX: Added cross-compilation UI to project setup (issue [#370](https://github.com/CoatiSoftware/CoatiBugTracker/issues/370))
+* Added update checker connecting to online API and checkbox to enable daily update checks on start screen.
+* Java: Implemented interrupting AST visiting of Java indexer
+* Java: Updated to JavaSymbolSolver 0.6.0.X and Javaparser 3.3.0
+* CXX: Removed preprocessor only option, because of new include path validation
+* CXX: Fixed uppercase CXX header file name and extensions saved in lowercase (issue [#437](https://github.com/CoatiSoftware/CoatiBugTracker/issues/396))
+* Code: When clicking source location with multiple tokens or local symbols show a list to select one of these
+* Sort indexer commands for increased performance
+* Added custom tooltipping to Code and Graph with clickable types of variables and signatures (issue [#195](https://github.com/CoatiSoftware/CoatiBugTracker/issues/195))
+* Java: fix issue where Maven project did not show any source files (issue [#428](https://github.com/CoatiSoftware/CoatiBugTracker/issues/428))
+* CXX: clean indexed header path selection for project setup from Compilation Database
+* Added progress dialog for "show source files" button in project setup UI
+* CXX: Added include path validation to project settings
+* Search: Select text elements when clicking into search bar
+* Search: Fixed crash when fulltext search yields no results
+* Updated to Qt 5.9.1
+* CXX: Added node type for "union"
+* CXX: Merge anonymous types and the respective typedef (issue [#189](https://github.com/CoatiSoftware/CoatiBugTracker/issues/189), [#292](https://github.com/CoatiSoftware/CoatiBugTracker/issues/292))
+* CXX: Updated to clang 4.0.1
+* Added Menu option to show Start Window
+* Don't show start window when opening project with double-click
+* Show license type label in title bar: "Sourcetrail [trial, test, non-commercial]"
+* Graph: Fixed class expand toggle shown in overview and namespace lists
+* Graph: Show inheritance edges between parents of active symbol and other visible symbols (issue [#167](https://github.com/CoatiSoftware/CoatiBugTracker/issues/167))
+* Improved project loading performance
+* Code: improved location retrieval and hover performance
+* Show recent bookmarks in bookmarks menu (issue [#414](https://github.com/CoatiSoftware/CoatiBugTracker/issues/414))
+* Code: Fixed references and buttons when activating file in snippet mode
+* Java: added auto-detection for JRE System Library
+* Java: Prefill JRE system library path on first Sourcetrail launch
+* macOS: fixed qt.conf for case-sensitive file system (issue [#404](https://github.com/CoatiSoftware/CoatiBugTracker/issues/404))
+* Improved database saving performance
+* Improved database file clearing performance
+* Improved contrasts of UI elements in bright color scheme
+* Graph: Show zoom level as percent label next to zoom buttons
+* Added Visual Studio Code plugin (issue [#397](https://github.com/CoatiSoftware/CoatiBugTracker/issues/397))
+* Added "Edit Project" button below error table
+* Java: Maven fixes regarding JAVA_HOME variable (issue [#405](https://github.com/CoatiSoftware/CoatiBugTracker/issues/405))
+
 #### 2017.2
 released 2017-06-21
 
