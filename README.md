@@ -24,8 +24,8 @@ Thank you!
 
 ## Changelog
 
-#### 2017.3.22
-released 2017-08-23
+#### 2017.3.26
+released 2017-08-24
 
 * Java: fixed indexer to continue working when a dependency path does not exist
 * Changed default indexer thread count to 0, which uses optimal thread count
