@@ -42,7 +42,7 @@ released 2017-08-24
 * CXX: Fixed uppercase CXX header file name and extensions saved in lowercase (issue [#437](https://github.com/CoatiSoftware/CoatiBugTracker/issues/396))
 * Code: When clicking source location with multiple tokens or local symbols show a list to select one of these
 * Sort indexer commands for increased performance
-* Added custom tooltipping to Code and Graph with clickable types of variables and signatures (issue [#195](https://github.com/CoatiSoftware/CoatiBugTracker/issues/195))
+* Added custom tooltipping to Code and Graph with clickable types of variables and signatures (issue [#195](https://github.com/CoatiSoftware/CoatiBugTracker/issues/195), [#331](https://github.com/CoatiSoftware/CoatiBugTracker/issues/331))
 * Java: fix issue where Maven project did not show any source files (issue [#428](https://github.com/CoatiSoftware/CoatiBugTracker/issues/428))
 * CXX: clean indexed header path selection for project setup from Compilation Database
 * Added progress dialog for "show source files" button in project setup UI
