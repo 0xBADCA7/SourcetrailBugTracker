@@ -24,6 +24,44 @@ Thank you!
 
 ## Changelog
 
+#### 2017.4.19
+released 2017-10-25
+
+* Code: Fixed file state of snippets wrong after iterating references in single file view
+* Search: Improved selection on focus to allow editing of search query (issue [#483](https://github.com/CoatiSoftware/CoatiBugTracker/issues/483))
+* Code: Fixed last line removed in full file view
+* Fixed local symbol activation via plugin shows empty view
+* Fixed handling of symbolic links when activated via plugin (issue [#489](https://github.com/CoatiSoftware/CoatiBugTracker/issues/489))
+* Code: Fixed crash due to double deletion of elements (issue [#488](https://github.com/CoatiSoftware/CoatiBugTracker/issues/488))
+* Code: Show shortcut 'Ctrl + Left Mouse' in code for 'Show in IDE' context menu action
+* Improved names, texts and order in project setup
+* macOS: Fixed start screen did not vanish when opening project with double click
+* Added Non-Commercial use option and removed trial mode
+* Linux: Moved install and uninstall scripts to top level directory in package
+* C++: Fixed record rvalue references as "&&" instead of "&"
+* C/C++: Added prefilling of indexed header paths for compilation database projects
+* Moved automatic update check setting to preferences and enable by default
+* Code: Added indexing of qualifier source locations and allow symbol activation by clicking qualifiers
+* Linux: Enabled Qt highDPI scaling to fix UI issues on high resolution screens
+* Fixed handling of non-indexed files in Graph and Code
+* C/C++: Removed include check validataion for compilation database source groups
+* Graph: Bundle nested anonymous namespaces into anonymous namespace bundle in namespace overview (issue [#465](https://github.com/CoatiSoftware/CoatiBugTracker/issues/465))
+* Search: Fixed vertical growth of search bar area when resizing window
+* Visual Studio plugin: Lots off fixes, see changelog (https://github.com/CoatiSoftware/vs-sourcetrail/blob/master/CHANGELOG.md)
+* Sublime Text plugin: Fixed plugin not working when installed via Package Control (issue #468)
+* Windows: Added missing Qt dlls to save graph images as .jpg (issue [#474](https://github.com/CoatiSoftware/CoatiBugTracker/issues/474))
+* C/C++: Updated to Clang 5.0.0
+* Code: Fixed annotations missing for full file snippets
+* Java: Added project setup from Gradle (issue [#379](https://github.com/CoatiSoftware/CoatiBugTracker/issues/379))
+* Added "Find On-Screen" option with search bar at bottom of window for searching Graph and Code on-screen (issue [#79](https://github.com/CoatiSoftware/CoatiBugTracker/issues/79))
+* Use "Find On-Screen" with 'Ctrl + D' or '/'
+* Graph: Added C++ template specialization and template member specialization edges
+* Graph: Show implicit children of implicit nodes
+* Code: Fixed syntax highlighting of inline comments
+* Code: Added syntax highlighting rule for char literals
+* C++: Improved recording of template member specializations
+* Refresh only files where content actually changed
+
 #### 2017.3.48
 released 2017-09-07
 
