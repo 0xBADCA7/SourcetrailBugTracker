@@ -24,7 +24,7 @@ Thank you!
 
 ## Changelog
 
-#### 2017.4.19
+#### 2017.4.20
 released 2017-10-25
 
 * Code: Fixed file state of snippets wrong after iterating references in single file view
