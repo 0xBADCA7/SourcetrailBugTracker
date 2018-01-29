@@ -24,7 +24,7 @@ Thank you!
 
 ## Changelog
 
-#### 2018.1.17
+#### 2018.1.18
 released 2018-01-29
 
 * Graph: Improved type node contrast in bright color scheme
