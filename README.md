@@ -24,9 +24,10 @@ Thank you!
 
 ## Changelog
 
-#### 2018.1.18
-released 2018-01-29
+#### 2018.1.19
+released 2018-01-30
 
+* Fixed crash on filling DirectoryListBox with no selected items (issue [#544](https://github.com/CoatiSoftware/CoatiBugTracker/issues/544), [#545](https://github.com/CoatiSoftware/CoatiBugTracker/issues/545))
 * Graph: Improved type node contrast in bright color scheme
 * Code: Fixed going back in history sometimes showed the wrong file when an edge was activated last
 * Code: Clicking on active location will activate it again and show it's definition
