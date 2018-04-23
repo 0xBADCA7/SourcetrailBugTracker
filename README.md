@@ -27,7 +27,7 @@ Thank you!
 #### 2018.2.18
 released 2018-04-23
 
-* Also clear errors in non-indexed files when refreshing "updated and incomplete files" (issue #564)
+* Also clear errors in non-indexed files when refreshing "updated and incomplete files" (issue [#564](https://github.com/CoatiSoftware/CoatiBugTracker/issues/564))
 * Updated about dialog to new company name
 * Graph: Improved layout of aggregation edges
 * Fixed race condition causing crashes when showing tooltips
@@ -45,21 +45,21 @@ released 2018-04-23
 * Graph: Improved horizontal layout to avoid edges overlapping nodes
 * Show versions of 3rd party dependencies in 3rd party dialog
 * Updated help info for update check
-* Graph: Group graph nodes by file or namespace (issues #171, #439, #522)
+* Graph: Group graph nodes by file or namespace (issues [#171](https://github.com/CoatiSoftware/CoatiBugTracker/issues/171), [#439](https://github.com/CoatiSoftware/CoatiBugTracker/issues/439), [#522](https://github.com/CoatiSoftware/CoatiBugTracker/issues/522))
 * Graph: Layout template specializations vertically and show them in inheritance depth graph
-* Graph: Show symbols defined within file when activating file node (issue #268)
+* Graph: Show symbols defined within file when activating file node (issue [#268](https://github.com/CoatiSoftware/CoatiBugTracker/issues/268))
 * UI: Updated to Qt 5.10.1
 * C/C++: Updated to clang 6.0
 * Graph: better contrast for non-indexed hatching colors
-* Graph: group nodes with same base and derived nodes in inheritance depth graph (issue #459)
-* Code: Lazy load code annotations for shorter display time (issue #389)
-* Code: Improved snippet display time (issue #389)
-* C++: fixed infinite recursion while solving c++ template parameter names (issue #553)
+* Graph: group nodes with same base and derived nodes in inheritance depth graph (issue [#459](https://github.com/CoatiSoftware/CoatiBugTracker/issues/459))
+* Code: Lazy load code annotations for shorter display time (issue [#389](https://github.com/CoatiSoftware/CoatiBugTracker/issues/389))
+* Code: Improved snippet display time (issue [#389](https://github.com/CoatiSoftware/CoatiBugTracker/issues/389))
+* C++: fixed infinite recursion while solving c++ template parameter names (issue [#553](https://github.com/CoatiSoftware/CoatiBugTracker/issues/544))
 * Added close button to status view
 * Improved style of tab bar in status view
-* Added Show Errors button to title bar of incomplete files to show only errors related to certain file (issue #246)
-* Added sorting to error table columns (issue #559)
-* Added wildcards for excluded paths (issue #475)
+* Added Show Errors button to title bar of incomplete files to show only errors related to certain file (issue [#246](https://github.com/CoatiSoftware/CoatiBugTracker/issues/246))
+* Added sorting to error table columns (issue [#559](https://github.com/CoatiSoftware/CoatiBugTracker/issues/559))
+* Added wildcards for excluded paths (issue [#475](https://github.com/CoatiSoftware/CoatiBugTracker/issues/475))
 * Option to accept EULA via commandline API
 * Changed seats to users for Commercial License in EULA
 * Graph: Improved vertical layout for override and inheritance edges
