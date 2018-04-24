@@ -24,9 +24,10 @@ Thank you!
 
 ## Changelog
 
-#### 2018.2.18
-released 2018-04-23
+#### 2018.2.19
+released 2018-04-24
 
+* Fixed crash on converting relative paths to canonical paths in project setup
 * Also clear errors in non-indexed files when refreshing "updated and incomplete files" (issue [#564](https://github.com/CoatiSoftware/CoatiBugTracker/issues/564))
 * Updated about dialog to new company name
 * Graph: Improved layout of aggregation edges
