@@ -24,9 +24,11 @@ Thank you!
 
 ## Changelog
 
-#### 2018.2.73
+#### 2018.2.77
 released 2018-06-18
 
+* C/C++: Fixed incomplete header file got changed to complete from correct translation unit, although it had errors
+* Fixed show errors button click on incomplete file with no associated errors showed all errors
 * C/C++: Ship clang compiler headers within package on macOS and Linux (issue [#99](https://github.com/CoatiSoftware/CoatiBugTracker/issues/99))
 * Graph: Fixed undoing one of multiple edge activations caused multiple recenterings of the graph
 * Fixed links not clickable in source group type selection
@@ -36,7 +38,7 @@ released 2018-06-18
 * Code: Fixed snippet minimize click expanded snippet again
 * Fixed changing of selected source group not possible if validity check fails.
 * C/C++: Added C/C++ project setup from Code::Blocks (.cdb), which is also created for cmake projects in QtCreator
-* C/C++: fixed endless loop in include path auto detection (issue [#585](https://github.com/CoatiSoftware/CoatiBugTracker/issues/585))
+* C/C++: fixed endless loop in include path auto detection (issue [#585](https://github.com/CoatiSoftware/CoatiBugTracker/issues/585), [#470](https://github.com/CoatiSoftware/CoatiBugTracker/issues/470))
 * C/C++: fixed crash in include validation in source group setup
 * Fixed typo in update check (issue [#586](https://github.com/CoatiSoftware/CoatiBugTracker/issues/586))
 * C/C++: Added some compiler flags checks
