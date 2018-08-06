@@ -24,6 +24,54 @@ Thank you!
 
 ## Changelog
 
+#### 2018.3.13
+released 2018-08-06
+
+* Code: Fixed text search locations sometimes disappearing when expanding scope of code snippets
+* Graph: Added Expand/Collapse Node actions to graph context menu
+* Indexer: Improved storing performance
+* Warn user after indexing if project index is used in multiple processes and cannot be updated
+* Search: Fixed text search sometimes showed wrong results for queries with non-letter characters
+* Graph: Improved graph node color contrasts
+* C/C++: Improved file path caching for faster indexing times
+* C/C++: Fixed click on macro reference activated first of multiple symbols instead of showing tooltip list
+* C/C++: Fixed file logging broken when indexing a compilation database project in single process
+* Prefill system specific paths in application settings only once
+* Added check if entered project name is a valid file name
+* Windows: Fixed names of available header path detectors
+* Graph: Show graph legend via 'legend' command or '?' button in the lower right corner (issue [#308](https://github.com/CoatiSoftware/CoatiBugTracker/issues/308), [#540](https://github.com/CoatiSoftware/CoatiBugTracker/issues/540))
+* C/C++: Ship clang compiler headers also for Windows
+* Code: Added on-demand local reference navigation to code view navigation bar (issue [#453](https://github.com/CoatiSoftware/CoatiBugTracker/issues/453), [#538](https://github.com/CoatiSoftware/CoatiBugTracker/issues/538))
+* Improved button texts for "reindexing required" dialog
+* Code: Scroll code horizontally to active source location if out of view
+* Graph: Added show definition context menu action/shortcut to show definition of any node in the code (issue [#83](https://github.com/CoatiSoftware/CoatiBugTracker/issues/83))
+* Improved project loading speed
+* Create project directory during project setup if not existing
+* Tooltip: Show function/method signatures exactly as declared in source file
+* Search: Improved autocompletion scoring to process more symbols
+* Search: Fixed autocompletions fail with wide characters (issue [#598](https://github.com/CoatiSoftware/CoatiBugTracker/issues/598))
+* Windows: Show error text when opening external .dll fails
+* C/C++: Highlight opening and closing braces in code when hovering either one (issue [#12](https://github.com/CoatiSoftware/CoatiBugTracker/issues/12))
+* macOS: Fixed start screen not disappearing when launching Sourcetrail by opening a project
+* Graph: Fixed restoring of scroll position in graph on undo broken
+* Graph: Hide children with type use edges to parent if parent is active
+* Bookmark: Fixed bookmark creator dialog header not visible
+* Graph: Show parameters for functions/methods with same name (issue [#259](https://github.com/CoatiSoftware/CoatiBugTracker/issues/259))
+* Graph: exporting graph as .svg (issue [#596](https://github.com/CoatiSoftware/CoatiBugTracker/issues/596))
+* Show indexing progress bar in status bar
+* Keep browsing old project state while indexing (issue [#175](https://github.com/CoatiSoftware/CoatiBugTracker/issues/175))
+* Java: Added support for Java 9 & 10
+* Added project setup from Sonargraph project for C, C++ and Java.
+* Migrate old ".coatiproject" settings to new ".srctrlprj" extension when loading project
+* Allow discarding unfinished index when aborting indexing
+* Fixed partly indexed project can't be opened after closing while indexing (issue [#594](https://github.com/CoatiSoftware/CoatiBugTracker/issues/594))
+* C/C++: Show translation unit of indexing errors
+* Fixed activating history item from menu showed wrong symbol (issue [#572](https://github.com/CoatiSoftware/CoatiBugTracker/issues/572))
+* Fixed all errors shown when only showing errors for certain file and changing error filter (issue [#577](https://github.com/CoatiSoftware/CoatiBugTracker/issues/577))
+* Added pagination to project setup dialogs
+* C/C++: Make complete file incomplete if it has errors in later translation units
+
+
 #### 2018.2.77
 released 2018-06-18
 
