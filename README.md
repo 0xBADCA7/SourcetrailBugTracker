@@ -24,9 +24,10 @@ Thank you!
 
 ## Changelog
 
-#### 2018.3.54
-released 2018-08-28
+#### 2018.3.55
+released 2018-08-31
 
+* C/C++: Fixed crash on logging Clang invocation info with flags that throw errors (issue [#617](https://github.com/CoatiSoftware/CoatiBugTracker/issues/617))
 * Plugin: Move window to the front when sending symbol via plugin (issue [#605](https://github.com/CoatiSoftware/CoatiBugTracker/issues/605))
 * Java: Fixed crash on Windows if JVM tries to allocate too much memory
 * Java: Fixed loading dialogs shown in main window instead of project setup dialog for setup with gradle
