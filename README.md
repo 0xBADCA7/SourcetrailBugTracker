@@ -24,6 +24,28 @@ Thank you!
 
 ## Changelog
 
+#### 2019.1.0 (beta)
+released 2019-01-21
+
+* Fixed status error may not show up if custom command fails on Windows
+* Graph: Fixed right click activates edge on Windows but should not
+* C/C++: Always add compiler header path to global include paths and warn user about possible problems
+* Added option to execute custom indexer commands in parallel
+* Graph: Align layout in middle column at middle gap to avoid edges going through nodes
+* Code: Fixed line numbers disappearing on hover on Linux
+* Fixed initialization of header search paths on first start of Sourcetrail
+* Project Setup: Highlight project setup from Compilation Database as recommended for C/C++ projects
+* Project Setup: Double-click in project setup list boxes adds new line
+* Graph: Only bundle as "importing files" when "import" edge is present
+* Graph: Prevent flickering of edges when going back after multiple edge activations
+* Fixed relative paths not working in Code::Blocks project files (issue [#663](https://github.com/CoatiSoftware/CoatiBugTracker/issues/663))
+* Graph: Remove virtual nodes in depth-graph edges when moving nodes (issue [#639](https://github.com/CoatiSoftware/CoatiBugTracker/issues/639))
+* Added exception handling for HTTP request exceptions in update checker (issue [#659](https://github.com/CoatiSoftware/CoatiBugTracker/issues/659))
+* Clear screen-search matches when the active symbol in the view changes (issue [#660](https://github.com/CoatiSoftware/CoatiBugTracker/issues/660))
+* Wrap lines in status and error table (issue [#658](https://github.com/CoatiSoftware/CoatiBugTracker/issues/658))
+* Graph: Elide name of active node if it has more than 100 characters (issue [#652](https://github.com/CoatiSoftware/CoatiBugTracker/issues/652))
+* Added link to changelog to help menu (issue [#653](https://github.com/CoatiSoftware/CoatiBugTracker/issues/653))
+
 #### 2018.4.45
 released 2018-12-18
 
