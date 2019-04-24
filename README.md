@@ -24,6 +24,28 @@ Thank you!
 
 ## Changelog
 
+#### 2019.2.0
+released 2019-04-24
+
+* Graph: Added "Show Definition in IDE" action to context menu (issue [#687](https://github.com/CoatiSoftware/CoatiBugTracker/issues/687))
+* Increased contrasts in color scheme bright
+* Automatically delete log files older than a month (issue [#676](https://github.com/CoatiSoftware/CoatiBugTracker/issues/676))
+* Code: renamed 'relations' to 'references' in overview stats
+* Fixed bug that caused the UI to be blocked after aborting indexing on "partial clearing not possible" warning
+* Start automatic update checks on second day of use
+* Graph: Show multi-level inheritance edge in graph legend (issue [#688](https://github.com/CoatiSoftware/CoatiBugTracker/issues/688))
+* C/C++: Updated to LLVM/Clang 8.0.0
+* Graph: Use multicolumn layout for nodes with many children if none of the children has edges
+* Python: Added Python 2 & 3 support based on SourcetrailPythonIndexer (https://github.com/CoatiSoftware/SourcetrailPythonIndexer)
+* Python: Added source group type "Empty Python" to project setup
+* Search: Edit last search element on backspace instead of deleting (issue [#681](https://github.com/CoatiSoftware/CoatiBugTracker/issues/681))
+* EULA: added support for lifelong licenses
+* Improved text search performance (issue [#680](https://github.com/CoatiSoftware/CoatiBugTracker/issues/680))
+* Windows: Fixed bug that caused texts within tooltips sometimes to be cut off
+* Fixed crash when closing license window at first start
+* Automatically replace invalid characters in project name during project setup with "_" (issue [#671](https://github.com/CoatiSoftware/CoatiBugTracker/issues/671))
+* Windows: Added syntax highlighting rules to portable package (issue [#672](https://github.com/CoatiSoftware/CoatiBugTracker/issues/672))
+
 #### 2019.1.11
 released 2019-02-05
 
