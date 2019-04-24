@@ -24,7 +24,7 @@ Thank you!
 
 ## Changelog
 
-#### 2019.2.0
+#### 2019.2.0 (beta)
 released 2019-04-24
 
 * Graph: Added "Show Definition in IDE" action to context menu (issue [#687](https://github.com/CoatiSoftware/CoatiBugTracker/issues/687))
@@ -36,7 +36,7 @@ released 2019-04-24
 * Graph: Show multi-level inheritance edge in graph legend (issue [#688](https://github.com/CoatiSoftware/CoatiBugTracker/issues/688))
 * C/C++: Updated to LLVM/Clang 8.0.0
 * Graph: Use multicolumn layout for nodes with many children if none of the children has edges
-* Python: Added Python 2 & 3 support based on SourcetrailPythonIndexer (https://github.com/CoatiSoftware/SourcetrailPythonIndexer)
+* Python: Added Python 2 & 3 support based on [SourcetrailPythonIndexer](https://github.com/CoatiSoftware/SourcetrailPythonIndexer)
 * Python: Added source group type "Empty Python" to project setup
 * Search: Edit last search element on backspace instead of deleting (issue [#681](https://github.com/CoatiSoftware/CoatiBugTracker/issues/681))
 * EULA: added support for lifelong licenses
