@@ -24,9 +24,16 @@ Thank you!
 
 ## Changelog
 
-#### 2019.2.0 (beta)
-released 2019-04-24
+#### 2019.2.8 (beta)
+released 2019-05-07
 
+* Fixed EULA not displayed in Windows and macOS builds
+* Python: Added start screen project icon
+* Python: Added sample project "tictactoe_py"
+* Code: Fixed symbol definition shown instead of reference on back
+* Python: Added post processing to add ambiguous edges for unsolved symbols with matching name
+* Fixed old test license format not loaded (issue [#691](https://github.com/CoatiSoftware/CoatiBugTracker/issues/691))
+* C/C++: Added intermediate fix to handle multiple definitions of main() in C/C++ (issue [#233](https://github.com/CoatiSoftware/CoatiBugTracker/issues/233))
 * Graph: Added "Show Definition in IDE" action to context menu (issue [#687](https://github.com/CoatiSoftware/CoatiBugTracker/issues/687))
 * Increased contrasts in color scheme bright
 * Automatically delete log files older than a month (issue [#676](https://github.com/CoatiSoftware/CoatiBugTracker/issues/676))
