@@ -24,9 +24,11 @@ Thank you!
 
 ## Changelog
 
-#### 2019.2.18
-released 2019-05-20
+#### 2019.2.23
+released 2019-05-21
 
+* Python: Sort indexer commands by file size
+* Linux: Add path to OpenSSL config in Sourcetrail.sh script (issue #659)
 * Search: Refocus already focused search box on 'find symbol' shortcut to select content
 * Renamed 'main' function in tutorial to 'start_tour', due to multiple main fix
 * Python: Fixed macOS app bundle not using correct Python default environment
