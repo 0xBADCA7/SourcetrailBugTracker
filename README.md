@@ -28,7 +28,7 @@ Thank you!
 released 2019-05-21
 
 * Python: Sort indexer commands by file size
-* Linux: Add path to OpenSSL config in Sourcetrail.sh script (issue #659)
+* Linux: Add path to OpenSSL config in Sourcetrail.sh script (issue [#659](https://github.com/CoatiSoftware/CoatiBugTracker/issues/659))
 * Search: Refocus already focused search box on 'find symbol' shortcut to select content
 * Renamed 'main' function in tutorial to 'start_tour', due to multiple main fix
 * Python: Fixed macOS app bundle not using correct Python default environment
