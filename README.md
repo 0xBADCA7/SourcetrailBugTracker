@@ -27,7 +27,7 @@ Thank you!
 #### 2019.2.25
 released 2019-05-22
 
-* Enables console and file logging by default
+* Enable console and file logging by default
 * Python: Sort indexer commands by file size
 * Linux: Add path to OpenSSL config in Sourcetrail.sh script (issue [#659](https://github.com/CoatiSoftware/CoatiBugTracker/issues/659))
 * Search: Refocus already focused search box on 'find symbol' shortcut to select content
