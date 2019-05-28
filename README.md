@@ -27,15 +27,15 @@ Thank you!
 #### 2019.2.39
 released 2019-05-28
 
-* Python: Added example for Python environment to Source Group help text (issue #696)
+* Python: Added example for Python environment to Source Group help text (issue [#696](https://github.com/CoatiSoftware/CoatiBugTracker/issues/696))
 * Python: Improved post processing speed and show progress dialog
 * Python: Added validity check for Python environment when entered in Source Group
 * Code: Improved performance of location hovering in snippet mode
 * Graph: Fixed undo after single edge activation within aggregation caused missing edges
-* Don't set project state outdated if only Source Group name changed (issue #700)
+* Don't set project state outdated if only Source Group name changed (issue [#700](https://github.com/CoatiSoftware/CoatiBugTracker/issues/700))
 * C/C++: Don't store path to compiler headers in preferences, instead always add it before indexing
 * Python: write output of indexer processes to log file
-* Fixed crashes on application close (issue #698)
+* Fixed crashes on application close (issue [#698](https://github.com/CoatiSoftware/CoatiBugTracker/issues/698))
 
 #### 2019.2.25
 released 2019-05-22
